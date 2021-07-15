@@ -530,7 +530,6 @@ figure {
 
   .tm-banner-section video {
     top: 50%;
-    transform: translate(-50%, -50%);
     transform: scale(0.75, 1);
   }
 }

@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>ASMSL</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" />
     <!-- https://fonts.google.com/specimen/Open+Sans -->
     <link rel="stylesheet" href="{% static 'css/all.min.css' %}" />
@@ -14,6 +16,7 @@
     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" />
     <!-- https://getbootstrap.com/ -->
     <link rel="stylesheet" href="{% static 'css/tooplate-style.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <!--
 Tooplate 2111 Pro Line
 http://www.tooplate.com/view/2111-pro-line
@@ -79,9 +82,9 @@ http://www.tooplate.com/view/2111-pro-line
             <div class="row">
                 <div class="col-12">
                     <header>
-                        <h2 class="tm-banner-title text-secondary">ASMSLです</h2>
+                        <h2 class="tm-banner-title text-secondary">会社です</h2>
                         <p class="mx-auto tm-banner-subtitle text-secondary">
-                            消防設備等の点検を行っております
+                            こんにちは！！！！！
                         </p>
                     </header>
                 </div>
@@ -89,7 +92,7 @@ http://www.tooplate.com/view/2111-pro-line
         </div>
 
         <!-- Video -->
-        
+
         <video id="hero-vid" autoplay="" loop="" muted>
             <source src="{% static 'videos/fire.mp4' %}" type="video/mp4" />
             Your browser does not support the video tag.
@@ -100,7 +103,7 @@ http://www.tooplate.com/view/2111-pro-line
         <div class="row tm-features-row">
             <section class="col-md-6 col-sm-12 tm-feature-block">
                 <header class="tm-feature-header">
-                    <h3 class="tm-feature-h">井上　武明</h3>
+                    <h3 class="tm-feature-h">代表太郎</h3>
                 </header>
                 <p>
                     該当する自己紹介
@@ -189,49 +192,33 @@ http://www.tooplate.com/view/2111-pro-line
     </div>
 
     <section class="container tm-company-section" id="company">
-        <div class="row">
-            <div class="col-xl-9 col-lg-8 col-md-12 tm-company-left">
-                <div class="tm-company-about">
-                    <div class="tm-company-img-container">
-                        <img src="{% static 'img/img-05.jpg' %}" alt="Image" />
-                    </div>
-                    <div class="tm-company-about-text">
-                        <header>
-                            <h2 class="tm-company-about-header">会社概要</h2>
-                        </header>
-                        <p>
-                            会社の説明文
-                        </p>
-                        <!-- <a href="#" class="btn tm-btn tm-float-right">Read More</a> -->
-                    </div>
+            
+                        <h2 class="text-center">会社概要</h2>
+                    <table class="tbl-r02">
+                        <tr>
+                            <th>会社名</th>
+                            <td>紋々位置</td>
+                        </tr>
+                        <tr>
+                            <th>代表</th>
+                            <td>代表太郎</td>
+                        </tr>
+                        <tr>
+                            <th>所在地</th>
+                            <td>住所</td>
+                        </tr>
+                        <tr>
+                            <th>E-mail</th>
+                            <td>email@email.email</td>
+                        </tr>
+                        <tr class="last">
+                            <th>事業内容</th>
+                            <td>内容</td>
+                        </tr>
+                    </table>
+                    <!-- <a href="#" class="btn tm-btn tm-float-right">Read More</a> -->
                 </div>
             </div>
-            <!-- <div class="col-xl-9 col-lg-4 col-md-12 tm-company-right  ml-lg-auto mr-lg-0">
-                <div class="tm-company-right-inner">
-                    <ul class="nav nav-tabs" id="tmCompanyTab" role="tablist">
-                        <li class="nav-item">
-                            <a class="nav-link tm-nav-link-border-right active" id="vision-tab" data-toggle="tab"
-                                href="#vision" role="tab" aria-controls="vision" aria-selected="true">理念</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link tm-no-border-right" id="mission-tab" data-toggle="tab" href="#mission"
-                                role="tab" aria-controls="mission" aria-selected="false">これから</a>
-                        </li>
-                    </ul>
-                    <div class="tab-content" id="tmTabContent">
-                        <div class="tab-pane fade show active" id="vision" role="tabpanel" aria-labelledby="vision-tab">
-                            <p>
-                                理念
-                            </p>
-                        </div>
-                        <div class="tab-pane fade" id="mission" role="tabpanel" aria-labelledby="mission-tab">
-                            <p>
-                                これから
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
         </div>
     </section>
     <!-- Contact -->

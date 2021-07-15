@@ -529,6 +529,7 @@ figure {
   }
 
   .tm-banner-section video {
+    object-fit: fill;
     top: 50%;
     transform: translate(-50%, -50%);
   }

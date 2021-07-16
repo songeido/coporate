@@ -144,7 +144,7 @@ p:last-child {
   top: 60%;
   transform: translate(-50%, -60%);
   min-width:100%;
-  min-height: 100%;
+  min-height:100%;
 }
 
 .tm-banner-text-container {
@@ -530,7 +530,7 @@ figure {
 
   .tm-banner-section video {
     top: 50%;
-    transform: scale(0.75, 1);
+    transform:translate(-50%,-50%);
   }
 }
 

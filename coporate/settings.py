@@ -30,8 +30,8 @@ ALLOWED_HOSTS = ["*"]
 #email settings
 
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'e-mail'
-EMAIL_HOST_PASSWORD = 'google app password'
+EMAIL_HOST_USER = 'rubik.eito@gmail.com'
+EMAIL_HOST_PASSWORD = 'koeise01'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 

@@ -31,7 +31,7 @@ ALLOWED_HOSTS = ["*"]
 
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'rubik.eito@gmail.com'
-EMAIL_HOST_PASSWORD = 'koeise01'
+EMAIL_HOST_PASSWORD = 'baathcedforzaokq'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
